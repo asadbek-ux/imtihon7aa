@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="sansa">
+            <img src="./img/Logo.png" alt="">
+            <ul>
+                <li class="home">Home</li>
+                <li>Product</li>
+                <li>Blog</li>
+                <li>About us</li>
+                <li>Contact Us</li>
+            </ul>
+            <div class="buttons">
+                <button><img src="./img/Icon.png" alt=""></button>
+                <button class="likecount count" >
+                    <span style="display: none;" class="count">{likeCount}</span>
+                    <img src="./img/Icon (1).png" alt="">
+                </button>
+                <button class="addcount count">
+                    <span style="display: none;" class="count"></span>
+                    <img src="./img/icon 2.png" alt="">
+                </button>
+                <button><img src="./img/Icon (3).png" alt=""></button>
+            </div>
+        </div>
+        <hr> 
+    </header>   
+
+    <div class="hp">
+        <p class="home">Home/</p>
+        <p>Shopping Bag</p>
+    </div>
+
+    <div class="shb">
+        <h1>Shopping Bag</h1>
+    </div>
+
+    <div class="shopping-bag" >
+        <div class="products">
+            <div class="product">
+                <img class="p-img" src="./img/black t-shirt.png" alt="">
+                <div class="detail">
+                    <div class="price">
+                        <h3>Black shirt</h3>
+                        <h1>6.75 USD</h1>
+                    </div>
+
+                    <p>Description</p>
+
+                    <div class="qty">
+                        <p>Qty</p>
+                        <button class="minus" >-</button>
+                        <p class="qtycount">1</p>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <a class="remove" href="">remove</a>
+            </div>
+
+            <div class="product">
+                <img class="p-img" src="./img/black t-shirt.png" alt="">
+                <div class="detail">
+                    <div class="price">
+                        <h3>Black shirt</h3>
+                        <h1>6.75 USD</h1>
+                    </div>
+
+                    <p>Description</p>
+
+                    <div class="qty">
+                        <p>Qty</p>
+                        <button class="minus" >-</button>
+                        <p class="qtycount">1</p>
+                        <button class="plus">+</button>
+                    </div>
+                </div>
+                <a class="remove" href="">remove</a>
+            </div>
+        </div>
+
+        <div class="debit-card" style="display: none;">
+            <img class="vector" src="./img/Vector.png" alt="">
+            <h3>Credit/Debit Card</h3>
+            <img src="./img/plastik.png" alt="">
+            <button class="debit-close">Close</button>
+        </div>
+
+        <div class="paymet-m" style="display: none;">
+            <h3>Payment Method</h3>
+            <div class="pays">
+                <img src="./img/card.png" alt="">
+                <img src="./img/paypal.png" alt="">
+                <img src="./img/pay.png" alt="">
+                <img src="./img/apay.png" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="summary">
+            <h3>Summary ( 2 items )</h3>
+            <div class="sum">
+                <p>Subtotal</p>
+                <h3>16.25 USD</h3>
+            </div>
+            <div class="ship">
+                <p>Shipping</p>
+                <h4>Free</h4>
+            </div>
+            <hr>
+            <div class="total">
+                <p>Total</p>
+                <h2 class="subtotal">16.25 USD</h2>
+            </div>
+            <button class="continue">Continue</button>
+
+            <input type="text" id="promoInput" class="promo" placeholder="Enter your promo code">
+            <button id="applyBtn" class="applyBtn">Apply</button>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="mmw item">
+            <h3>Make money with us</h3>
+            <ul>
+                <li>Sell product on Sansa</li>
+                <li>Sell on Sansa Business</li>
+                <li>Self-Publish with Us</li>
+            </ul>
+        </div>
+
+        <div class="connect item">
+            <h3>Connects</h3>
+            <ul>
+                <li><img src="./img/facebook.png" alt="">Facebook</li>
+                <li> <img src="./img/instagram.png" alt="">Instagram</li>
+                <li> <img src="./img/in.png" alt="">LinkedIn</li>
+                <li> <img src="./img/twitter.png" alt="">X</li>
+            </ul>
+        </div>
+
+        <div class="paymet item">
+            <h3>Payment Method</h3>
+            <img src="./img/paymet.png" alt="">
+        </div>
+
+        <div class="item">
+            <h3>Terms and Conditions</h3>
+        </div>
+    </footer>
+    <script src="./shopping.js"></script>
+</body>
+</html>
